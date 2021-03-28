@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*id:header layout setting*/
+#header {
+    background-color:green;
+    color:white;
+    text-align:center;
+    padding:5px;
+	margin:0px 100px;	
+    /*margin-left:100px;*/
+	background-image:url(assignment/images/sky.png);
+	width:1150px;
+
+    }
+/*id:navigation layout setting*/
+#nav {
+    line-height:50px;
+	text-align:center;
+	color:white;
+    background-color:green;
+    height:400px;
+    width:100px;
+    float:left;
+    padding:5px,5px;     
+	margin:0px 0px 0px 100px;
+    }
+/*id:section layout setting*/	
+#section {
+    width:1000px;
+    float:left;
+    padding:10px;
+	margin:0px 100px 0px 0px;		 	 
+    }
+/*id:footer layout setting*/	
+#footer {
+    background-color:white;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;	
+    margin:0px 100px;	 	 
+    }
+/*table border setting */	
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/*cell height*/
+td {
+    height: 10px;
+   
+}
+/*table width*/
+table{
+	width: 80%;
+	}
